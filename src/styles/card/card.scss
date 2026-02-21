@@ -9,6 +9,7 @@
   border: 1px solid $color-card-border;
 
   background-color: $color-white;
+  transition: transform 0.3s ease;
 
   &__image {
     width: 160px;
@@ -73,6 +74,10 @@
       line-height: 18px;
       color: $color-title;
     }
+  }
+
+  &:hover {
+    transform: scale(1.05);
   }
 
   &__buy-button {

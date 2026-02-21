@@ -5,13 +5,14 @@
   padding: 32px 16px 16px;
   border: 1px solid #f3f3f3;
   background-color: #fff;
+  transition: transform 0.3s ease;
 }
 
 .card__image {
   width: 160px;
   height: 134px;
   margin: auto;
-  background-image: url('../images/imac.jpeg');
+  background-image: url("../images/imac.jpeg");
   background-repeat: no-repeat;
   background-size: 160px 134px;
 }
@@ -66,6 +67,10 @@
   font-weight: 700;
   line-height: 18px;
   color: #060b35;
+}
+
+.card:hover {
+  transform: scale(1.05);
 }
 
 .card__buy-button {
